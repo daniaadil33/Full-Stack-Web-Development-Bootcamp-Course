@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>CSS Group and Type-Attribute Selectors Practice</title>
+    <style>
+        /* Group selector for h1 and p */
+        h1, p {
+            color: #2c3e50; /* Dark blue */
+            font-family: Arial, sans-serif;
+            margin-bottom: 20px;
+        }
+
+        /* Type-Attribute selector for text inputs */
+        input[type="text"] {
+            background-color: #f0f8ff; /* Light blue */
+            border: 1px solid #3498db; /* Blue border */
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        /* Type-Attribute selector for submit buttons */
+        input[type="submit"] {
+            background-color: #2ecc71; /* Green background */
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Group and Type-Attribute Selectors Practice</h1>
+    <p>In this exercise, you will use group selectors and type-attribute selectors to apply styles to multiple HTML elements. This exercise will help you learn how to minimize repetition in your CSS code and how to style specific elements based on their attributes.</p>
+    
+    <form>
+        <label for="name">Name:</label>
+        <input id="name" type="text">
+        <br><br>
+
+        <!-- Using input type="submit" for the button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
