@@ -1,0 +1,17 @@
+/* Group Selectors
+allows you to apply the same styles to multiple elements at once */
+
+h1,h2{
+    color: rgb(231, 71, 98);
+}
+
+/* The attribute selector is used to style elements based on their attributes */
+
+[data-priority="high"]{
+    color: rgb(225, 92, 114);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+[data-priority="low"]{
+    font-family: cursive;
+}
