@@ -1,0 +1,14 @@
+.container p{
+    color: rgb(104, 0, 146);
+}
+
+.container .special{
+    background-color: rgb(255, 210, 255);
+    color: rgb(58, 0, 112);
+}
+/* The .parent > .child selector styles only the immediate .child elements.*/
+/* -- Direct Child Selector -- */
+
+.container > h2{
+    color: rgb(164, 234, 255);
+}
