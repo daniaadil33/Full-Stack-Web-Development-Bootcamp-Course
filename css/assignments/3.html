@@ -5,28 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Descendant Selector Practice</title>
     <style>
-        /* Style all <li> elements inside <ul> */
-        ul li {
-            color: rgb(186, 186, 255); 
-            list-style-type: none; 
-            margin: 10px;
-        }
+            /* Styling the list items inside the unordered list */
+            ul li {
+                color: pink;
+            }
 
-        /* Style all <a> elements inside <nav> */
-        nav a {
-            text-decoration: none; 
-            color: white; 
-            background-color: rgb(188, 188, 255); 
-            padding: 10px; 
-            border-radius: 5px; 
-        }
+            /* Styling the links (a) inside nav ul li */
+            nav ul li a {
+                text-decoration: none;
+                background-color: pink;
+                border-radius: 5px;
+                padding: 5px; /* Optional, adds spacing inside the link */
+            }
 
-        /* Style all <p> elements inside <section> */
-        section p {
-            font-family: Arial, sans-serif; 
-            color: rgb(0, 50, 83); 
-            line-height: 1.5;
-        }
+            /* Styling paragraphs directly inside elements with class "id" */
+            .id > p {
+                color: pink;
+                font-family: Arial;
+                line-height: 1.6;
+                font-weight: bolder;
+            }
+
     </style>
 </head>
 <body>
