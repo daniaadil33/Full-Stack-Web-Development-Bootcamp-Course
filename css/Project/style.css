@@ -1,0 +1,63 @@
+/* UNIVERSAL selector*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Type selector*/
+body{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6;
+
+}
+
+/* ID selector*/
+#main-header{
+    background-color: rgb(46, 0, 88);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Class selector*/
+.container{
+    max-width: 800px;
+    background-color:rgb(255, 255, 255);
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+/* Attribute selector*/
+
+[data-category="Technology"]{
+    font-style:italic;
+    color: rgb(135, 0, 135);
+    font-weight: 600;
+}
+/* Descendant selector*/
+.post-content{
+    color: rgb(111, 24, 111);
+    margin-bottom: 20px;
+    font-size: 20px;
+
+} 
+
+/* Child selector*/
+.post-meta > span{
+    margin-right: 15px;
+    font-size: 20px;
+}
+/* Grouping selector*/
+h1,h2,h3{
+    margin-bottom: 20px;
+    color: violet;
+
+}
+
+/* Pseudo selector*/
+a:hover{
+    color: red;
+}
+
