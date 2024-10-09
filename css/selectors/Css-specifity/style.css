@@ -1,0 +1,17 @@
+/* ELEMENT selector */
+p{
+    color: rgb(73, 0, 209);
+}
+
+/* CLASS selector */
+.text{
+    color: rgb(198, 0, 0);
+}
+
+/* ID Selector */
+#subcontent{
+    color: rgb(0, 121, 0);
+
+}
+
+/* : Inline > ID > Class > Element */
