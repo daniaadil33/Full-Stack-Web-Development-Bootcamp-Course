@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling with Selectors</title>
+    <style>
+        body {
+            background-color: rgb(255, 255, 224);
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+        }
+        /* ID selector*/
+        #main-title {
+            font-family: 'Courier New', Courier, monospace;
+            line-height: 1.6;
+            color: blue; /* Added color for the title */
+        }
+
+        /* class selector*/
+        .info {
+            font-weight: bolder;
+            font-family: cursive;
+            text-align: center;
+            line-height: 2;
+            color: green; /* Change text color for paragraphs */
+        }
+        /* attribute selector*/
+        input[type="text"] {
+            font-weight: bolder;
+            font-family: 'Sans-Serif';
+            color: red;
+            border: 1px solid blue;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Descendant selector*/
+        ul li {
+            font-family: cursive;
+            text-align: left;
+            color: green; 
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="main-title">Styling with CSS Selectors</h1>
+
+    <p class="info">This is a paragraph styled with a class selector.</p>
+    <p class="info">Another paragraph styled with the same class.</p>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text">
+        
+        <label for="email">Email:</label>
+        <input type="text">
+        
+        <input type="submit" value="Submit">
+    </form>
+
+    <ul>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ul>
+</body>
+</html>
