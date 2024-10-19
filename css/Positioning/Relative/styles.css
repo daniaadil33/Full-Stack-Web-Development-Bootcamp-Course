@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  border: 2px solid black;
+  padding: 20px;
+  height: 200px;
+  position: relative; /* in realtive to this we are moving soo..*/
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 214, 255);
+  color: rgb(92, 0, 92);
+}
+
+.absolute {
+  position: absolute;  /* set the position of thing to move as ABSOLUTE*/
+  top: 0;
+}
