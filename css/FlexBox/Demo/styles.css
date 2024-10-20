@@ -1,0 +1,40 @@
+.container{
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /*: Aligns items along the main axis*/
+    align-items: center; /*Aligns items along the cross axis*/
+}
+
+.box{
+    height: 150px;
+    background-color: rgb(223, 197, 223);
+    margin: 10px;
+
+}
+
+.box1{
+    background-color: purple;
+    align-self: flex-end;
+    flex-grow: 1;
+}
+
+.box2{
+    background-color: rgb(139, 188, 255);
+    align-self: flex-start;
+    flex-grow: 2;
+}
+
+.box3{
+    background-color: rgb(217, 255, 128);
+    align-self: flex-start;
+    flex-grow: 3;
+}
+
+.box3{
+    background-color: rgb(255, 127, 127);
+    align-self: flex-end;
+    flex-grow: 4;
+}
