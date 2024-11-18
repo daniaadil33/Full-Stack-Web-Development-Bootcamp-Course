@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Profile card  -->
+    <div class="profile-card">
+      <!-- Side bar -->
+      <div class="profile-sidebar">
+        <img
+          src="data:image/jpeg;base64,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"
+          alt="Emman Profile"
+          class="profile-photo"
+        />
+        <h1>Dania Adil</h1>
+        <p class="job-title">Software Design Engineer</p>
+        <p class="company">Schneider Electric</p>
+      </div>
+      <!-- Side bar end -->
+      <!-- Main -->
+      <div class="profile-main">
+        <p class="bio">
+            A skilled Software Design Engineer with a strong foundation in Python, HTML, CSS, MySQL, and JavaScript. Passionate about developing dynamic web applications, excelling at creating user-friendly interfaces and efficient back-end systems. With a keen eye for detail and a commitment to best practices, dedicated to delivering high-quality software solutions. Always eager to learn and grow, embracing new challenges in the ever-evolving tech landscape.
+        </p>
+        <div class="contact-info">
+          <p>daniaadil@gmail.com • Whitefield,Bengaluru</p>
+        </div>
+        <!-- social links -->
+        <div class="social-links">
+          <a href="#">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <!-- skills -->
+        <div class="skills">
+          <span class="skill">Javascript</span>
+          <span class="skill">HTML</span>
+          <span class="skill">CSS</span>
+          <span class="skill">Python</span>
+        </div>
+        <!-- Btn -->
+        <button class="cta-button">View Full Profile</button>
+      </div>
+    </div>
+
+    <!-- Profile card end -->
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+    </style>
+  </body>
+</html>
