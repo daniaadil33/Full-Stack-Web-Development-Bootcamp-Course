@@ -1,0 +1,23 @@
+.box{
+    width: 100%;
+    height: 200px;
+
+}
+
+@media screen and (orientation:landscape) {
+    .box{
+        background-color: rgb(255, 199, 255);
+        color: rgb(111, 0, 111);
+        font-size: 100px;
+    }
+    
+}
+
+@media screen and (orientation:portrait) {
+    .box{
+        background-color: pink;
+        color: rgb(162, 48, 67);
+        font-size: 300px;
+    }
+    
+}
